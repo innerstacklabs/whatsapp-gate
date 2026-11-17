@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-gate",
+  "version": "0.1.0",
+  "description": "Send WhatsApp messages from an AI coding agent, with every message shown to a human in full and held for a yes.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "install-gate": "node scripts/install.ts",
+    "test": "node --test \"test/*.test.ts\""
+  }
+}
